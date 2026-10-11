@@ -1,93 +1,251 @@
 <!DOCTYPE html>
 <html lang="id">
-<link rel="stylesheet" href="style.css">
 
 <head>
     <meta charset="UTF-8">
     <title>Miftakhul Muzakki</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Miftakhul Muzakki</h1>
-        <p>
-            Mahasiswa Sistem Informasi yang tertarik pada desain
-            dan pengembangan perangkat lunak.
-        </p>
-    </header>
+    <header class="header">
+        <nav class="navbar">
 
-    <nav>
-        <a href="#About">About</a>
-        <a href="#keahlian">Keahlian</a>
-        <a href="#Fakta Tentang Saya">Fakta Tentang Saya</a>
-        <a href="#sosmed">Kontak</a>
-    </nav>
+            <a href="#Profil" class="logo">
+                MIFTAKHUL <span>MUZAKKI</span>
+            </a>
+        
+            <div class="nav-links">
+                <a href="#profil">Profil</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#keahlian">Keahlian</a>
+                <a href="#kontak">Kontak</a>
+            </div>
+        </nav>
 
     <main>
 
-        <section id="tentang">
-            <h2>Tentang Saya</h2>
+        <section id="profil" class="profil section">
 
-            <img
-                src="https://img.pikbest.com/wp/202405/cartoon-humor-humorous-3d-gorilla-giving-a-thumbs-up_9831128.jpg!w700wp"
-                alt="Ilustrasi gorila mengacungkan jempol">
+            <div class="profil-container">
 
-            <p>
-                Saya Miftakhul Muzakki, mahasiswa Universitas Pesantren
-                Tinggi Darul Ulum, Fakultas Sains dan Teknologi,
-                Program Studi Sistem Informasi.
-            </p>
+                <div class="profil-content">
 
-            <p>
-                Saya tertarik pada front-end development, back-end
-                development, dan data analysis. Terdengar tidak masuk akal
-                saya bisa menguasai skill tersebut.
-            </p>
-        </section>
-
-        <section id="keahlian">
-            <h2>Keahlian</h2>
-
-            <ul>
-                <li>
-                    <h3>Front-end Development</h3>
-                    <p>
-                        Menguasai HTML, CSS, dan JavaScript untuk membangun
-                        antarmuka pengguna yang menarik dan responsif.
+                    <p class="teks-pembuka">
+                        HAI, SAYA
                     </p>
-                </li>
-            </ul>
+
+                    <h1>
+                        MIFTAKHUL<br>
+                        <span>MUZAKKI</span>
+                    </h1>
+
+                    <h2>
+                        Mahasiswa Sistem Informasi
+                    </h2>
+
+                    <div class="info">
+
+                        <div>
+                            <small>FAKULTAS</small>
+                            <p>Sains & Teknologi</p>
+                        </div>
+
+                        <div>
+                            <small>UNIVERSITAS</small>
+                            <p>Universitas Pesantren Tinggi Darul Ulum</p>
+                        </div>
+
+                    </div>
+
+                    <p class="deskripsi-profil">
+                        Membangun, mendesain, dan terus belajar
+                        menciptakan solusi digital melalui teknologi.
+                    </p>
+
+                    <div class="profil-buttons">
+
+                        <a href="#kontak" class="btn btn-outline">
+                            Hubungi Saya
+                        </a>
+
+                    </div>
+
+                </div>
+    </main>
+
+<!-- FOTO -->
+                <div class="profil-gambar">
+                    <div class="gambar-frame">
+
+                        <div class="gambar-placeholder">
+                            <img src="zakki.png" alt="Foto Miftakhul Muzakki">
+                        </div>
+
+                        <div class="frame-line"></div>
+
+                    </div>
+
+                </div>
+            </div>
+
         </section>
 
-        <aside>
-            <h2>Fakta Tentang Saya</h2>
+        <section id="tentang" class="tentang section">
+            <aside>
+                <h2>Tentang Saya</h2>
 
-            <p>
-                Jujur saja tidak ada keahlian yang saya kuasai,
-                keterangan di atas hanya formalitas saja, terima kasih.
+                <p class="teks-besar">
+                    Saya 
+                    <strong>Miftakhul Muzakki</strong>,
+                    mahasiswa Program Studi Sistem Informasi di
+                    Fakultas Sains dan Teknologi,
+                    Universitas Pesantren Tinggi Darul Ulum.
+                </p>
+
+                <p>
+                    Saya memiliki ketertarikan pada dunia
+                    pengembangan website, desain UI/UX,
+                    pemrograman, dan teknologi digital.
+                </p>
+
+                <p>
+                    Saya senang mempelajari hal-hal baru dan
+                    mengembangkan kemampuan melalui berbagai
+                    tugas, latihan, dan proyek.
+                </p>
+
+                <p>
+                    Bagi saya, teknologi bukan hanya tentang
+                    membuat sebuah sistem bekerja, tetapi juga
+                    bagaimana membuatnya mudah digunakan,
+                    memiliki tampilan yang menarik, dan dapat
+                    memberikan solusi terhadap suatu kebutuhan.
+                </p>
+
+            </aside>
+
+        </section>
+
+<!--keahlian-->
+
+        <section id="keahlian" class="profil section">
+
+            <div class="section-header">
+
+                <div>
+                    <p class="section-label">KEAHLIAN</p>
+                    <h2>Keahlian Saya</h2>
+                </div>
+
+            </div>
+
+            <p class="deskripsi-keahlian">
+                Beberapa kemampuan yang sedang saya kembangkan
+                melalui perkuliahan dan latihan mandiri.
             </p>
-        </aside>
+
+            <div class="keahlian-grid">
+
+<!-- WEB DEVELOPMENT -->
+                <article class="keahlian-card">
+
+                    <span class="nomor">01</span>
+                    <h3>Web Development</h3>
+
+                    <p>
+                        Membuat dan mengembangkan website
+                        dengan teknologi dasar web.
+                    </p>
+
+                    <div class="list-keahlian">
+                        <span>HTML5</span>
+                        <span>CSS</span>
+                        <span>Javascript</span>
+                        <span>Git</span>
+                        <span>GitHub</span>
+                    </div>
+
+                </article>
+
+
+<!-- DESIGN -->
+                <article class="keahlian-card">
+
+                    <span class="nomor">02</span>
+                    <h3>Design</h3>
+
+                    <p>
+                        Membuat desain visual dan rancangan
+                        antarmuka yang menarik dan mudah digunakan.
+                    </p>
+
+                    <div class="list-keahlian">
+                        <span>UI/UX</span>
+                        <span>Desain Grafis</span>
+                    </div>
+
+                </article>
+        </section>
+
+<!-- KONTAK -->
+            <section id="kontak" class="kontak section">
+                <h2>Hubungi Saya</h2>
+                
+                <div class="contact-item">
+                    <span>WHATSAPP</span>
+                    <a href="https://wa.me/6282229868135" target="_blank">
+                        0822-2986-8135
+                    </a>
+                </div>
+
+                <div class="contact-item">
+                    <span>INSTAGRAM</span>
+
+                    <a href="https://www.instagram.com/muzak.kk" target="_blank">
+                        @muzak.kk
+                    </a>
+                </div>
+                
+                <div class="contact-item">
+                    <span>GITHUB</span>
+                        <a href="https://github.com/miftakhulmuzakki352-byte/Tugas-T2-Halaman-Profil-Semantik">
+                        miftakhulmuzakki352-byte
+                        </a>
+                </div>
+
+                <div class="contact-item">
+                    <span>EMAIL</span>
+                        <a href="mailto:miftakhulmuzakki352@gmail.com">
+                        miftakhulmuzakki352@gmail.com
+                        </a>
+                </div>
+
+            </section>
 
     </main>
 
-    <footer id="sosmed">
-        <h2>Kontak</h2>
+
+
+
+
+    <footer id="profil" class="footer">
+
+        <div class="footer-logo">
+            MIFTAKHUL <span>MUZAKKI</span>
+        </div>
 
         <p>
-            GitHub:
-            <a href="https://github.com/miftakhulmuzakki352-byte/Tugas-T2-Halaman-Profil-Semantik">
-                GitHub Saya
-            </a>
+            Mahasiswa Sistem Informasi | Web Development & Digital Design
         </p>
 
-        <p>
-            Email:
-            <a href="miftakhulmuzakki352@gmail.com">
-               miftakhulmuzakki352@gmail.com
-            </a>
+        <p class="copyright">
+            2026 Miftakhul Muzakki. All Rights Reserved.
         </p>
+
     </footer>
+
 
 </body>
 
