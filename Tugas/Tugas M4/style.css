@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #d8eaff;
+    background-color: #0b1d33;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+.header {
+    background-color: #102746;
+    color: white;
+    padding: 20px 30px;;
+    font-weight: bold;
+}
+
+.logo  {
+    font-size: 18px;
+    color: rgb(216, 234, 255);
+    justify-content: space-between;
+}
+.navbar {
+   justify-content: space-between;
+   display: flex;
+}
+
+.nav-menu {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.nav-menu a {
+    font-size: 18px;
+    color: #d8eaff; 
+    gap: 30;
+}
+
+.logo span {
+    color: #5b9df9;
+}
+
+.profil-container {
+    width: 100%;
+}
+#profil {
+    background-color: #0b1d33;
+    padding: 200px 35px;
+    margin-bottom: 50px;
+
+}
+
+.profil-container {
+    width: 100%;
+}
+
+.profil-konten {
+    display:inline-block;
+    
+}
+.gambar-profil {
+
+}
+
+
+
+
+
+
