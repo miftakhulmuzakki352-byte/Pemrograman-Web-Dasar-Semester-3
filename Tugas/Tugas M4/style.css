@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
 }
+/*elemen besar*/
+
 
 body {
     font-family: Arial, sans-serif;
@@ -15,12 +17,12 @@ body {
 .header {
     background-color: #102746;
     color: white;
-    padding: 20px 30px;;
+    padding: 29px 30px;;
     font-weight: bold;
 }
 
 .logo  {
-    font-size: 18px;
+    font-size: 28px;
     color: rgb(216, 234, 255);
     justify-content: space-between;
 }
@@ -35,7 +37,7 @@ body {
 }
 
 .nav-menu a {
-    font-size: 18px;
+    font-size: 28px;
     color: #d8eaff; 
     gap: 30;
 }
@@ -44,27 +46,81 @@ body {
     color: #5b9df9;
 }
 
-.profil-container {
-    width: 100%;
-}
 #profil {
-    background-color: #0b1d33;
-    padding: 200px 35px;
-    margin-bottom: 50px;
-
+    background: #0b1d33;
+    padding: 70px 35px;
+    margin: 60px;
 }
 
 .profil-container {
     width: 100%;
+    text-align: left;
 }
 
 .profil-konten {
     display:inline-block;
-    
+    vertical-align: middle;
+    width: 50%;
+    padding: 20px;
+    margin: 0;
+}
+
+.outline {
+    display: inline-block;
+    padding: 8px 15px;
+    color: #102746;
+    background-color: #81adeb;
+    border: 2px solid #5b9df9;
+    font-size: 22px;
+    border-radius: 8px;
+    margin: 60px;
 }
 .gambar-profil {
+    display: inline-block;
+    vertical-align: middle;
+    width: 35%;
+    margin-left: 2%;
+}
+
+.gambar-placeholder img {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: 20%;
 
 }
+
+.tetangsaya {
+    background-color: #102746;
+    padding: 70px 35px;
+}
+
+.tentang-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 25%;
+}
+
+.tentang-container h2 {
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    margin-bottom: 25px;
+
+
+}
+.tentang-container h2 span {
+    color: #5b9df9;
+}
+
+.tentang-container p {
+    font-size: 28px;
+    color: #d8eaff;
+    margin-bottom: 18px;
+    text-align: justify;
+}
+
 
 
 
