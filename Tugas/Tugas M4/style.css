@@ -21,16 +21,63 @@ body {
     font-weight: bold;
 }
 
-.logo  {
-    font-size: 28px;
-    color: rgb(216, 234, 255);
-    justify-content: space-between;
-}
 .navbar {
    justify-content: space-between;
    display: flex;
 }
 
+.profil-container {
+    width: 100%;
+    text-align: left;
+}
+
+
+.tentangsaya {
+    background-color: #102746;
+    padding: 70px 35px;
+}
+
+.tentang-container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.section-porto {
+    background-color: #0b1d33;
+    padding: 80px 35px;
+    margin: 0;
+}
+
+.porto-saya {
+    width: 100%;
+    text-align: center;
+}
+
+/*id*/
+#profil {
+    background: #0b1d33;
+    padding: 70px 35px;
+    margin:60px 60px 150px;
+}
+
+#tentang {
+    background-color: #102746;
+    padding: 70px 35px;
+}
+
+
+/*elemen printilan*/
+.logo  {
+    font-size: 28px;
+    color: rgb(216, 234, 255);
+    justify-content: space-between;
+}
+
+.logo span {
+    color: #5b9df9;
+}
 .nav-menu {
     justify-content: center;
     flex-wrap: wrap;
@@ -40,29 +87,6 @@ body {
     font-size: 28px;
     color: #d8eaff; 
     gap: 30;
-}
-
-.logo span {
-    color: #5b9df9;
-}
-
-#profil {
-    background: #0b1d33;
-    padding: 70px 35px;
-    margin: 60px;
-}
-
-.profil-container {
-    width: 100%;
-    text-align: left;
-}
-
-.profil-konten {
-    display:inline-block;
-    vertical-align: middle;
-    width: 50%;
-    padding: 20px;
-    margin: 0;
 }
 
 .outline {
@@ -75,6 +99,7 @@ body {
     border-radius: 8px;
     margin: 60px;
 }
+
 .gambar-profil {
     display: inline-block;
     vertical-align: middle;
@@ -86,29 +111,22 @@ body {
     width: 100%;
     height: auto;
     display: block;
-    text-align: 20%;
 
 }
 
-.tetangsaya {
-    background-color: #102746;
-    padding: 70px 35px;
-}
-
-.tentang-container {
-    width: 100%;
-    max-width: 1000px;
-    margin: 0 auto;
-    margin-bottom: 25%;
+.profil-konten {
+    display:inline-block;
+    vertical-align: middle;
+    width: 50%;
+    padding: 20px;
+    margin: 0;
 }
 
 .tentang-container h2 {
     font-size: 42px;
     color: white;
     text-align: center;
-    margin-bottom: 25px;
-
-
+    margin-bottom: 35px;
 }
 .tentang-container h2 span {
     color: #5b9df9;
@@ -119,8 +137,12 @@ body {
     color: #d8eaff;
     margin-bottom: 18px;
     text-align: justify;
+    line-height: 1.7;
 }
 
+.tentang-container p strong {
+    color: #5b9df9;
+}
 
 
 
