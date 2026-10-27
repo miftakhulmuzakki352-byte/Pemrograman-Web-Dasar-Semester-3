@@ -86,7 +86,7 @@ body {
 .nav-menu a {
     font-size: 28px;
     color: #d8eaff; 
-    gap: 30;
+    gap: 30px;
 }
 
 .outline {
@@ -143,13 +143,18 @@ body {
 .tentang-container p strong {
     color: #5b9df9;
 }
-
+.section-porto {
+    align-items: flex-start;
+}
 .sub-porto {
     align-items: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     gap: 35px;
+    box-sizing: border-box;
+    align-items: flex-start;
+
 
 }
 
@@ -178,4 +183,8 @@ body {
 }
  .porto-saya h2 span{
     color: #5b9df9;
+ }
+
+ .porto-saya p {
+    
  }
