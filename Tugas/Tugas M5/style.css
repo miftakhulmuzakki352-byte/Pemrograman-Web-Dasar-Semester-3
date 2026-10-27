@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+/*elemen besar*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #d8eaff;
+    background-color: #021024;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+}
+
+.header {
+    background-color: #102746;
+    color: white;
+    padding: 29px 30px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.logo {
+    color: #d8eaff;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    gap:10px;
+}
+
+.logo span {
+    color: #5b9df9;
+}
+.nav-menu {
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 25px;
+}
+.nav-menu a {
+    color: #d8eaff;
+    text-decoration: none;
+}
+
+#profil {
+    background: #021024;
+    margin:60px 60px 150px;
+
+
+}
+
+.profil-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+    border: 2px solid #5b9df9;
+    border-radius: 10px;
+    padding: 35px;
+    background-color: #041a36;
+    
+
+}
+
+
+.profil-content {
+    line-height: 10px;
+}
+
+.profil-content h1 {
+    font-size: 80px;
+    font-weight: bold;
+    display: block;
+    line-height: 80px;
+}
+
+.profil-content h1 span {
+    display: block;
+    color: #5b9df9;
+    
+}
+
+.profil-content h2{
+    font-size: 30px;
+    
+}
+
+.profil-content p {
+    font-size: 28px;
+    
+}
+
+.instansi {
+    font-size: 28px;
+    color: #5b9df9;
+    line-height: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+
+}
+.instansi p {
+    margin: 8px 0;
+    line-height: 1.5;
+    border: 2px solid #5b9df9;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+    display: inline-block;
+    color: #5b9df9;
+    font-size: 24px;
+    font-weight: bold;
+}
+.instansi p span {
+    display: block;
+    color: #d8eaff;
+    font-weight: normal;
+}
+
+.motto p {
+    font-size: 28px;
+    text-shadow: #81adeb;
+}
+
+.motto p span {
+    display: block;
+    line-height: 20px;
+}
+.profil-konten {
+    flex: 6;
+    min-width: 0
+    
+}
+
+.gambar-frame {
+    width: 100%;
+    max-width: 550px;
+}
+
+.gambar-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+.gambar-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block
+
+
+}
+.outline {
+    display: inline-block;
+    padding: 8px 15px;
+    color: #102746;
+    background-color: #81adeb;
+    border: 2px solid #5b9df9;
+    font-size: 22px;
+    border-radius: 8px;
+    margin: 60px;
+    text-decoration: none;
+    
+}
+
+
+#tentang {
+    background: #021024;
+    margin:60px auto 150px;
+    padding: 150px;
+
+
+    background-color: #041a36;
+    text-align: center;
+}
+
+
+.tentang-container h2 {
+    font-size: 45px;
+}
+
+.tentang-container h2 span {
+    color: #5b9df9
+}
+
+.tentang-container p {
+    font-size: 30px;
+    color: #93abc7;
+}
+.tentang-container p span {
+    color: #5b9df9;
+}
+
+#portofolio {
+  text-align: center;
+}
+
+.sub-porto {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    align-items: stretch;
+    padding: 60px;
+}
+
+.kartu-m1,
+.kartu-m2,
+.kartu-m3 {
+    padding: px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: 1px solid #5b9df9;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #041a36;
+}
+
+.kartu-m1 img,
+.kartu-m2 img,
+.kartu-m3 img {
+    width: 100%;
+    height: px;
+    object-fit: contain;
+    display: block;
+    
+}
