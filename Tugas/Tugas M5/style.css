@@ -5,7 +5,7 @@
 
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 16px;
     color: #d8eaff;
     background-color: #021024;
@@ -174,16 +174,15 @@ body {
 }
 
 
+
+
+
 #tentang {
-    background: #021024;
-    margin:60px auto 150px;
-    padding: 150px;
-
-
-    background-color: #041a36;
+    margin: 0 auto 150px;
+    margin-bottom: 300px ;
+    padding: 60px;
     text-align: center;
 }
-
 
 .tentang-container h2 {
     font-size: 45px;
@@ -195,16 +194,48 @@ body {
 
 .tentang-container p {
     font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
     color: #93abc7;
+
 }
 .tentang-container p span {
     color: #5b9df9;
 }
 
+
+
+
+
 #portofolio {
-  text-align: center;
+    
+    text-align: center;
 }
 
+.porto-saya {
+    font-size: 30px;
+    color: #93abc7;
+}
+
+.porto-saya h2 {
+    font-size: 45px;
+    color: white;
+    
+}
+
+.porto-saya h2 span {
+    color: #5b9df9;
+}
+
+.deskripsi-porto {
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+
+.deskripsi-porto span {
+    color: #5b9df9;
+}
 .sub-porto {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -224,14 +255,43 @@ body {
     border-radius: 10px;
     padding: 20px;
     background-color: #041a36;
+
+}
+
+
+.kartu-m1 h3,
+.kartu-m2 h3,
+.kartu-m3 h3 {
+    color: white;
+}
+
+.kartu-m1 span,
+.kartu-m2 span,
+.kartu-m3 span {
+    padding-top: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.p, .jenis-porto {
+    color: #5b9df9;
+}
+.kartu-m1 ,
+.kartu-m2 p,
+.kartu-m3 p
+
+.kartu-m1 p,
+.kartu-m2 p,
+.kartu-m3 p {
+    color: white;
 }
 
 .kartu-m1 img,
 .kartu-m2 img,
 .kartu-m3 img {
     width: 100%;
-    height: px;
     object-fit: contain;
     display: block;
-    
+    padding-top: 25px;
 }
+
